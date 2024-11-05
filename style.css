@@ -1,0 +1,77 @@
+* {
+    background-color: #030919;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    margin: 0px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+}
+
+#start {
+    background-color: white;
+    color: #030919;
+    padding: 50px;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    padding-inline: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#grille {
+    color: white;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    border: 3px solid white;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#click {
+    border: 3px solid white;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#joueur {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+#joueur h2 {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+#joueur1 {
+    background-color: white;
+    color: #030919;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#joueur2 {
+    background-color: white;
+    color: #030919;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
